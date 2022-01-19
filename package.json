@@ -1,0 +1,29 @@
+{
+  "name": "express_tutorial",
+  "version": "1.0.0",
+  "description": "Following along with [this](https://www.youtube.com/watch?v=L72fhGm1tfE&t=1951s&ab_channel=TraversyMedia) tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnHenry-Ward/Express_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnHenry-Ward/Express_tutorial/issues"
+  },
+  "homepage": "https://github.com/JohnHenry-Ward/Express_tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
